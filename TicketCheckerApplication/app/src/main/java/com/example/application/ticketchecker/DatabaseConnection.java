@@ -95,6 +95,7 @@ public class DatabaseConnection extends AsyncTask<String, String, Object> {
                     statement.setString(3,film_name);
                     statement.executeUpdate();
                 }
+                disconnect(resultSet,statement,connection);
             }
             catch(Exception e){
                 Log.i("SQL statements", e.toString());
