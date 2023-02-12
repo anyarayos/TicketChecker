@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ticket Checker</string>
+    <string-array name="movies">
+        <item>Miracle in Cell no. 7</item>
+        <item>Kita kita</item>
+        <item>My Ex and Whys</item>
+    </string-array>
+</resources>
